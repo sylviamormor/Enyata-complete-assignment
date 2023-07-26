@@ -1,0 +1,18 @@
+question 3
+1. DOM means Document Object Model. It represents a webpage as a set of objects structured in a tree-like form. Each element is presented as a node and this is a means by which web developers interact with the webpage and are able to  add and manipulate the elements
+
+2. A promise is a representation of the eventual completion or failure of an asynchronous operation. The use of promises come to play when running operations that that take time such as fetching data. A promise can be in three satates pending , fulfilled or rejected.
+
+3. Object oriented programming is a way of programming that involves the concept of objects. It is a way of organizing code to make it reusable. 
+
+4. A callback is a function that is present in another function and is passed as an argument to another function. It is then executed or "called back" later on at a specific point within the containing function's execution. It is implemented in asynchronous programming.
+
+
+
+
+
+question 4
+1 Gigabyte (GB) = 1,000,000,000 bytes
+
+
+
