@@ -7,7 +7,7 @@
 function fizzBuzz(n) {
     let fizzArray = []
    
-   for (let i = 0; i <= n; i++){
+   for (let i = 1; i <= n; i++){
        if (i %3 === 0 && i %5 === 0){
         fizzArray.push("fizzBuzz")
 
@@ -28,17 +28,17 @@ console.log(fizzBuzz(3))
 
 // question 5
 
-function sortAscending(arr) {
+function sortAscendingOrder(arr) {
     return arr.sort((a, b) => a - b);
   }
-  function sortDescending(arr) {
+  function sortDescendingOrder(arr) {
     return arr.sort((a, b) => b - a);
   }
 
-  const unsortedArray = [9, 5, 2, 7, 1, 8, 4, 6, 3];
+  const unsortedArray = [12, 6, 2, 9, 1, 8, 4, 5, 3];
 
-  const sortedAscending = sortAscending(unsortedArray);
+  const sortedAscending = sortAscendingOrder(unsortedArray);
   console.log("Ascending Order:", sortedAscending);
   
-  const sortedDescending = sortDescending(unsortedArray);
+  const sortedDescending = sortDescendingOrder(unsortedArray);
   console.log("Descending Order:", sortedDescending);
